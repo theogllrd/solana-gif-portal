@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "5brRhWZdtUiCAdD3ZonJbzfA5Y2jiz3ydE2j3z1joGqG"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/theogaillard/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
